@@ -1,0 +1,32 @@
+body{
+	background-color: aqua;
+}
+p{
+	font-size: 50px;
+	font-family: "Rubik Vinyl", system-ui;
+	text-align: center;
+	color: red;
+	background-color: blue;
+}
+ul{
+    font-size: 24px;
+    color: black;
+}
+.l1 li::marker{
+    color: greenyellow;
+    font-size: 1.1em;
+}
+.l2 li{
+	padding-left: 10px;
+}
+ol{
+	margin-left: 50px;
+}
+@counter-style emoji {
+  system: cyclic;
+  symbols: ♍️;
+  suffix: " ";
+} 
+.l3{
+	list-style: emoji;
+}

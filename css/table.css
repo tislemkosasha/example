@@ -1,0 +1,31 @@
+body{
+	background-color: orange;
+}
+p{
+    font-size: 50px;
+    color: red;
+    text-align: center;
+}
+table{
+	border: double 5px blue;
+	width: 50%;
+	font-size: 24px;
+}
+th,TD{
+	border: solid 2px lime;
+	width: 25%;
+}
+tr:hover{
+	background-color: lightgrey;
+}
+td:hover{
+	background-image: url(https://i.pinimg.com/originals/e6/f8/0b/e6f80be8122d7019c37b39b02dd6ec2c.gif);
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+tr:nth-child(even){
+	background-color: lightpink;
+}
+tr:nth-child(odd){
+	background-color: lightsalmon;

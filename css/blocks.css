@@ -1,0 +1,44 @@
+body{
+	background-color: white;
+}
+p{
+    background-color: gray;
+    color: black;
+    font-size: 50px;
+
+}
+.p2{
+	display: inline;
+}
+.p1 span{
+	font-style: italic;
+    background-color: white;
+    border: 5px doshed red;
+    display: inline;
+}
+#first{
+	width: 400px;
+	height: 400px;
+	background-color: gray;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-size: 48px;
+	border: 20px red;
+	border-style: dashed dotted double solid;
+}
+#second{
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+    padding: 50px;
+    margin: 100px;
+    border: 20px dashed;
+    border-color: gray white black purple;
+}
+#third,#forth{
+	width: 700px;
+	height: 700px;
+	background-color: white;
+	margin: 50px;
+}
